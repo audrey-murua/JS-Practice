@@ -56,3 +56,15 @@ let population = "329.5 million";
 console.log(country);
 console.log(continent);
 console.log(population);
+
+
+// Data Types
+
+// Boolean
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+// Typeof
+
+console.log(typeof true);
