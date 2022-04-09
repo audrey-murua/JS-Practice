@@ -17,7 +17,7 @@ if (js === "amazing") {
 }
 
 
-// Variables
+// VARIABLES
 
 let firstName = "Audrey";
 console.log(firstName);
@@ -58,13 +58,47 @@ console.log(continent);
 console.log(population);
 
 
-// Data Types
+// DATA TYPES
 
 // Boolean
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
-// Typeof
+// Typeof (checks data types)
 
 console.log(typeof true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 100);
+console.log(typeof "hello world!");
+
+
+//Reassigning Variables
+
+javascriptIsFun = "YES!";
+conesole.log(javascriptIsFun);
+console.log(typeof javascriptIsFun);
+
+//Undefined Variable
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+//Reassigned Undefined Variable
+
+year = 2022;
+console.log(typeof year);
+
+//Null (type is an object)
+
+console.log(typeof null);
+
+
+
+//Practice Assignment - Data Types
+
+/* 1. Declareavariablecalled'isIsland'andsetitsvalueaccordingtoyour country. The variable should hold a Boolean value. Also declare a variable 'language', but don't assign it any value yet
+2. Logthetypesof'isIsland','population','country'and'language' to the console */
+
+
