@@ -53,8 +53,8 @@ assign their values according to your own country (population in millions)
 // let continent = "North America";
 let population = "329.5 million";
 
-console.log(country);
-console.log(continent);
+// console.log(country);
+// console.log(continent);
 console.log(population);
 
 
@@ -76,7 +76,7 @@ console.log(typeof "hello world!");
 //Reassigning Variables
 
 javascriptIsFun = "YES!";
-conesole.log(javascriptIsFun);
+console.log(javascriptIsFun);
 console.log(typeof javascriptIsFun);
 
 //Undefined Variable
@@ -105,13 +105,13 @@ console.log(typeof null);
 
 let language;
 
-console.log(typeof isIsland);
+// console.log(typeof isIsland);
 
 console.log(typeof language);
 
 console.log(typeof population);
 
-console.log(typeof country);
+// console.log(typeof country);
 
 
 //DECLARING VARIABLES
@@ -140,4 +140,47 @@ const continent = "North America"
 
 const country = "United States";
 
-isIsland = true;
+// isIsland = true;
+
+
+// BASIC OPERATORS
+
+const now = 2055;
+
+// Subtraction
+
+const futureAge = now - 1930;
+console.log(futureAge);
+
+const futureAgeTwo = now - 1925;
+console.log(futureAgeTwo);
+
+// Multiplication, Divison, Exponent
+
+console.log(futureAge * 2, futureAge/ 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+// Concatenation
+
+const firstName1 = "Audrey";
+const lastName1 = "Murua";
+
+console.log(firstName1 + " " + lastName1);
+
+// Assignment Operator
+
+let x = 10 + 5;
+x += 10; // x = x + 10; equals 25
+x *= 4; // x = x * 4; equals 100
+x++; // x = x + 1
+x--; // x = x - 1
+console.log(x);
+
+// Comparison Operator
+
+console.log(futureAge > futureAgeTwo); // false
+console.log(futureAgeTwo >= 18);
+
+const legalAge = futureAgeTwo >= 18; // holds boolean value
+
+console.log(now - 1930 > now - 1925); 
