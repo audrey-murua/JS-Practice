@@ -212,3 +212,16 @@ console.log(averagePopulationOfACountry > population);
 
 let description = country + " is in " + continent + ", and its " + population + " million people speak " + language;
 console.log(description);
+
+
+// OPERATOR PRECEDENCE
+
+let a, b;
+a = b = 25 - 10 - 5;
+// a = b = 10, b = 10, a = b
+console.log(a, b); // 10, 10
+
+
+console.log(futureAge, futureAgeTwo);
+const averageAge = (futureAge + futureAgeTwo) / 2; //Grouping or Parenthesis takes highest precedence
+console.log(averageAge);
