@@ -18,3 +18,11 @@ Test data:
 Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 
 Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall. */
+
+//Task #1
+
+let marksAvgMass = (78 + 95) / 2;
+let marksAvgHeight = (1.69 + 1.88) / 2;
+
+let johnsAvgMass = (92 + 85) / 2;
+let johnsAvgHeight = (1.95 + 1.76) / 2;
