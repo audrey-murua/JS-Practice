@@ -42,3 +42,9 @@ let johnsBMI = johnsAvgMass / johnsAvgHeight ** 2;
 let johnsBMI2 = johnsAvgMass / (johnsAvgHeight * johnsAvgHeight);
 
 console.log(johnsBMI, johnsBMI2);
+
+//Task #3
+
+let markHigherBMI = marksBMI > johnsBMI;
+
+console.log(markHigherBMI);
