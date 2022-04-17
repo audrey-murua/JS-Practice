@@ -225,3 +225,37 @@ console.log(a, b); // 10, 10
 console.log(futureAge, futureAgeTwo);
 const averageAge = (futureAge + futureAgeTwo) / 2; //Grouping or Parenthesis takes highest precedence
 console.log(averageAge);
+
+
+// STRINGS AND TEMPLATE LITERALS
+
+//String Concatenation
+
+const famousTurtle = "Allison";
+const turtleWeight = 70;
+const yearFound = 2005;
+let currentYear = 2022;
+
+const allison = famousTurtle + " is a " + turtleWeight + " lb turtle, who lost 3 of her flippers in a predator attack " + (currentYear - yearFound) + " years ago!";
+
+console.log(allison);
+
+// Template Literals - ES6 
+
+const newAllisonString = `${famousTurtle} is a ${turtleWeight} lb turtle, who lost 3 of her flippers in a predator attack ${currentYear - yearFound} years ago!`;
+
+console.log(newAllisonString);
+
+console.log(`Backticks can be used on any regular string!`);
+
+// Multi-line String
+
+console.log("String with \n\multiple \n\lines!");
+// \n\ = new line
+
+// Multi-Line String - ES6
+
+console.log(`String with
+multiple
+lines!`);
+// \n\ is unnecessary with ES6 update
