@@ -259,3 +259,13 @@ console.log(`String with
 multiple
 lines!`);
 // \n\ is unnecessary with ES6 update
+
+
+
+//Practice Assignment - String and Template Literals
+
+/* 1. Recreate the 'description' variable from the last assignment,this time using the template literal syntax */
+
+description = `${country} is in ${continent} and its ${population} million people speak ${language}`;
+
+console.log(description);
