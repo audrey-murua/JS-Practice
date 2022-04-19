@@ -269,3 +269,36 @@ lines!`);
 description = `${country} is in ${continent} and its ${population} million people speak ${language}`;
 
 console.log(description);
+
+
+
+// IF/ELSE STATEMENTS
+
+const personsAge = 19;
+const drivingAge = personsAge >= 18;
+
+if(drivingAge) {
+    console.log("You can now get a drivers license!");
+}
+
+
+const isOldEnough = 14;
+
+if(isOldEnough >= 18) {
+    console.log("You can now get a drivers license!");
+} else {
+    const yearsLeft = 18 - isOldEnough;
+    console.log(`Sorry you're not old enough to drive, but you have ${yearsLeft} years left until you can!`);
+}
+
+
+const jonasBirthYear = 1991;
+let century;
+
+if(jonasBirthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);
