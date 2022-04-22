@@ -326,3 +326,32 @@ if(population > 33) {
 //     const belowAveragePopulation = 33 - population;
 //     console.log(`${country}'s population is ${belowAveragePopulation} million below average.`);
 // }
+
+
+
+// TYPE CONVERSION AND COERCION
+
+// Type Conversion
+
+const inputYear = "1999";
+console.log(inputYear + 18); // 199918
+console.log(Number(inputYear)); // converts inputYear to a number by using the number function
+console.log(Number(inputYear) + 18); // 1999 + 18 = 2017
+
+console.log(Number('Audrey')); // NaN - invalid number
+
+console.log(String(23)); // converts 23 to a string
+
+// Type Coercion
+
+console.log("I am " + 100 + " years old"); // + triggered type coercion to strings
+console.log("23" - "10" - 3); // 10 - triggered type coercion to numbers
+console.log("23" * "2"); // 46 * triggered type coercion to numbers
+console.log("22" / "2"); // 11 / triggered type coercion to numbers
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n); // 10 
+
+console.log(2 + 3 + 4 + "5"); // "95"
+console.log("10" - "4" - "3" - 2 + "5"); // "15"
