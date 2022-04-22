@@ -355,3 +355,30 @@ console.log(n); // 10
 
 console.log(2 + 3 + 4 + "5"); // "95"
 console.log("10" - "4" - "3" - 2 + "5"); // "15"
+
+
+
+//Practice Assignment - Type Conversion and Coercion
+
+/* 1. Predict the result of these 5 operations without executing them:
+
+     '9' - '5';
+     '19' - '13' + '17';
+     '19' - '13' + 17;
+     '123' < 57;
+     5 + 6 + '4' + 9 - 4 - 2;
+
+2. Execute the operations to check if you were right */
+
+
+/* '9' - '5';  // my guess: 4
+'19' - '13' + '17';  // my guess: 617
+'19' - '13' + 17;  // my guess: 23
+'123' < 57;  // my guess: false
+5 + 6 + '4' + 9 - 4 - 2; */  // my guess: 1143
+
+console.log('9' - '5'); //4
+console.log('19' - '13' + '17'); // 617
+console.log('19' - '13' + 17); // 23
+console.log('123' < 57); //false
+console.log(5 + 6 + '4' + 9 - 4 - 2); //1143
