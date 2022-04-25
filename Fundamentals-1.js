@@ -382,3 +382,36 @@ console.log('19' - '13' + '17'); // 617
 console.log('19' - '13' + 17); // 23
 console.log('123' < 57); //false
 console.log(5 + 6 + '4' + 9 - 4 - 2); //1143
+
+
+
+// TRUTHY AND FALSY VALUES
+
+// 5 Falsy Values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0)); // falsy
+console.log(Boolean(undefined)); // falsy
+console.log(Boolean("Audrey")); // truthy
+console.log(Boolean({})); // truthy
+console.log(Boolean("")); // falsy
+console.log(Boolean(" ")); // truthy
+
+const money = 0;
+
+if(money) {
+    console.log("Go shopping!");
+} else {
+    console.log("Umm... maybe you should save...");
+}
+
+//prints else code block due to money variable being a falsy value
+
+let height;
+
+if (height) {
+    console.log("Yay! Height is defined!");
+} else {
+    console.log("Height is UNDEFINED!");
+}
+
+// prints else code block due to height variable being a falsy value
