@@ -499,3 +499,20 @@ if(numNeighbors === 1) {
 } else {
     console.log(`No borders!`);
 }
+
+
+
+// BOOLEAN LOGIC
+
+let sarahAge = 16;
+
+const greaterThanOrEqual = sarahAge >= 20;
+const lessThan = sarahAge < 30;
+
+console.log(greaterThanOrEqual); // false
+console.log(lessThan); // true
+console.log(!greaterThanOrEqual); //true
+console.log(greaterThanOrEqual && lessThan); // false 
+console.log(greaterThanOrEqual || lessThan); // true
+console.log(!greaterThanOrEqual && lessThan); // true
+console.log(greaterThanOrEqual || !lessThan); // false
