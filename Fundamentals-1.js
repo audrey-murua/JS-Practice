@@ -415,3 +415,54 @@ if (height) {
 }
 
 // prints else code block due to height variable being a falsy value
+
+
+
+// EQUALITY OPERATORS: == VS ===
+
+const adultAge = 18;
+
+if (adultAge === 18) {
+    console.log(`You just became an adult! (strict)`);
+}
+
+if (adultAge == 18) {
+    console.log(`You just became an adult! (loose)`);
+}
+
+console.log( 18 === 18); // true
+console.log( 18 === 19); // false
+console.log( '18' == 18); // true
+console.log( '18' === 18); // false
+
+// Prompt Function Using Equality Operators
+
+let favoriteNumber = prompt(`What is your favorite number?`);
+console.log(favoriteNumber);
+console.log(typeof favoriteNumber);
+
+if(favoriteNumber == 5) { // "5" == 5 is true
+    console.log(`Cool, 5 is a great number.`);
+}
+
+favoriteNumber = Number(prompt(`What is your favorite number?`));
+
+if(favoriteNumber === 5) { // 5 === 5 is true
+    console.log(`Cool, 5 is an awesome number.`);
+}
+
+// Else If Using Equality Operators
+
+if(favoriteNumber === 5) { // 5 === 5 is true
+    console.log(`Cool, 5 is an awesome number.`);
+} else if (favoriteNumber === 7) {
+    console.log(`7 is a cool number.`);
+} else {
+    console.log(`This number isn't 5 or 7 :(`);
+}
+
+// Not Equal / Different Operator
+
+if (favoriteNumber !== 5) {
+    console.log(`Why isn't 5 your favorite number?!`);
+}
