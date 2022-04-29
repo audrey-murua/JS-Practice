@@ -516,3 +516,34 @@ console.log(greaterThanOrEqual && lessThan); // false
 console.log(greaterThanOrEqual || lessThan); // true
 console.log(!greaterThanOrEqual && lessThan); // true
 console.log(greaterThanOrEqual || !lessThan); // false
+
+
+
+// LOGICAL OPERATORS
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision); // true
+console.log(hasDriversLicense && !hasGoodVision); // false
+console.log(hasDriversLicense || !hasGoodVision); // true
+console.log(!hasDriversLicense); // false
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if(shouldDrive) {
+    console.log(`Sarah is able to drive!`)
+} else {
+    console.log(`Someone else should drive...`);
+}
+
+const isTired = false;
+
+console.log(hasDriversLicense || hasGoodVision || isTired); // true
+console.log(hasDriversLicense && hasGoodVision && isTired); // false
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
+    console.log(`Sarah is able to drive!`)
+} else {
+    console.log(`Someone else should drive...`);
+}
